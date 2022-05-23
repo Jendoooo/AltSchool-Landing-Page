@@ -5,25 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./base.css">
+    <link rel="stylesheet" href="contact.css">
     <title>Contact</title>
 </head>
 <body>
     <nav>
         <ul>
-            <li><a href="about.html">ABOUT ME</a></li>
+            <li><img src="https://thealtschool.com/" alt="The AltSchool"></li>
+            <li><a href="about.html">Home</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="login.html">Login</a></li>
             <li><a href="register.html">Register</a></li>
             <li><a href="calculator.html">Calculator</a></li>
         </ul>
     </nav>
-   <h1>CONTACT</h1>
-   <label for="text">Name</label>
-   <input type="text" name="text" placeholder="Please Enter your name"/>
-   <label for="text"> Email Address</label>
-   <input type="email" name="email" placeholder="Your email address:">
-   <label for="text">Message: </label>
-   <textarea name="" placeholder="Not more than 1000 Characters"></textarea>
+   <div>
+    <form>
+        <fieldset style="margin-top: 50px;">
+            <legend>Contact Me</legend>
+         <label for="text">Name</label>
+         <input type="text" name="text" placeholder="Please Enter your name"/>
+         <label for="text"> Email Address</label>
+         <input type="email" name="email" placeholder="Your email address:">
+         <label for="text">Message: </label><br>
+         <textarea name="" placeholder="Not more than 1000 Characters" required></textarea>
+         <label for="priority"> Priority</label>
+         <select name="priority">
+             <option value="P1"> Priority One  </option>
+             <option value="P2"> Priority Two</option>
+             <option value="P3"> Priority Three </option>
+         </select>
+        
+ 
+ 
+ 
+         <button type="submit" name="submit"> Send Message </button>
+        </fieldset>
+     
+    </form>
+   </div>
+
+   <div class="contact_footer">
+       &copy;Olajide Ayeola 2022
+   </div>
    
+  
 </body>
 </html>
