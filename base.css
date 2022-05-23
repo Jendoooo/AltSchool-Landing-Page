@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: #eee;
+}
+
+.wrapper{
+    margin:0 auto 0 60px;
+    width: 1000px;
+    
+
+}
+nav{
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+
+}
+
+ul{
+   margin-left:0px; 
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    line-height: 100px
+}
+
+ul li a {
+    display: block;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 20px;
+    color: #1e1e1e;
+}
+
+ul li a:hover{
+    color:red;
+}
+
+
+
+
+
+
+.calc-property{
+    width: 350px;
+    height: 400px;
+    text-align: center;
+    margin: 25px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1rem;
+    border-radius: 2%;
+    background: #EAEBEC;
+}
+.operation{
+    text-align: right;
+  color: #727B86;
+  font-size: 21px;
+  padding-bottom: 10px;
+  border-bottom: dotted 1px;
+}
+
+.answer{
+    margin-top: 20px;
+    font-size: 45px;
+    text-align: right;
+    background: #3A4655;
+}
+
+.blink-me{
+            animation: animate 
+                1.5s linear infinite;
+}
+
+
+
+
+.row1 {
+    border-width: 1px;
+    border-radius: 50px;
+    border-color:black;  
+    padding: 10px;
+    cursor:pointer;
+    font-size: 15px;
+    background: #404D5E
+}
+.row2 {
+    background-color: lightblue;
+    border-color: white;
+    cursor: pointer;
+}
+.row3{
+    padding: .375rem 1.25rem;
+    border-radius: 1rem;
+    border: 1px solid #aaa5a4;
+    background: #404D5E;
+    margin: .25rem;
+    cursor: pointer;
+}
+
+.row4{
+  width: 100%;
+  background: lightblue;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  
+  border-right: solid 2px #3C4857;
+  border-bottom: solid 2px #3C4857;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.std_button:hover{
+  
+        background: #E0B612;
+        transform: rotate(2deg);
+}
+.row5{
+    border-color:#A3B8CF; 
+    cursor:pointer;
+    background: #404D5E
+   
+}
+
+.buttonC{
+    color: #D95D4E;
+  background: #404D5E;
+}
+
+.buttonC:hover{
+    background: red;
+        transform: rotate(2deg);
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.7;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+}
